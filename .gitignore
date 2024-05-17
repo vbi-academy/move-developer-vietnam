@@ -1,9 +1,9 @@
 # Dependencies
 /node_modules
-
+.obsidian
 # Production
 /build
-.obsidian
+
 # Generated files
 .docusaurus
 .cache-loader
