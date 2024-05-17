@@ -1,0 +1,51 @@
+---
+sidebar_position: 1
+title: How to install Sui ?
+---
+
+
+Dear Suiens,
+
+Before going to sui network, you need to learn how to install Sui version. It is crucial to make your joyrney learning easily when interact with smart contract  
+
+# Install Sui 
+
+Firstly, the Sui developer guides are really helpful. They give clear, easy steps on how to install Sui. If you're new to Sui, it's a good idea to start here. It's worth taking the time to read these guides.
+
+But this document does more than just help you install Sui. It also gives you a **deeper understanding of the Sui system**. It will show you how to use Sui effectively. The extra info here is meant to give you all you need to use Sui easily and confidently😎. 
+
+The easiest way to install Sui is by typing the following commands for [Homebrew](https://brew.sh/) (MacOS) or [Chocolatey](https://chocolatey.org/) (Windows):
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="Homebrew" label="Homebrew" default>
+    ```shell
+    brew install sui
+    ```
+  </TabItem>
+  <TabItem value="Chocolatey" label="Chocolatey">
+    ```shell
+    choco install sui
+    ```
+  </TabItem>
+</Tabs>
+
+
+
+For Linux users (also supported on Mac), you can build using the Cargo package manager. Cargo requires Rust, so I suggest reading [the prerequisites](https://docs.sui.io/guides/developer/getting-started/sui-install#prerequisites) to ensure a successful installation.
+
+To install Sui binaries from the `testnet` branch, run the command below:
+```rust
+cargo install --locked --git <https://github.com/MystenLabs/sui.git> --branch testnet sui
+```
+
+The installation process might take some time. You can track its progress in the terminal. If an error occurs, ensure that you have installed the latest versions of all prerequisites before running the command again. 
+
+To update Rust to the latest stable version, use this command:
+```
+rustup update stable
+```
+This command installs Sui components in the '~/.cargo/bin' folder.
