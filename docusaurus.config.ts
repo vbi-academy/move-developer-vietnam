@@ -35,11 +35,15 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/openedu101/Move-developer-Vietnam.git',
-          routeBasePath: '/',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/openedu101/Move-developer-Vietnam.git',
         },
         blog: {
           showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/openedu101/Move-developer-Vietnam.git',
         },
