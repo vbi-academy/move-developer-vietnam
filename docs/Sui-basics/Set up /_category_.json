@@ -1,6 +1,6 @@
 {
-  "label": "Sui - Basic",
-  "position": 3,
+  "label": "Set up",
+  "position": 1,
   "link": {
     "type": "generated-index",
     "description": "Help you learning the basics of sui."
