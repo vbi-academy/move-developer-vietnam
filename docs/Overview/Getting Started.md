@@ -12,13 +12,16 @@ images:
 last_update:
     date: 2024-5-18
     author: Hien Phan
+
+slug: /
+
 ---
 
 # Getting Started
-* [What is Sui network?](/docs/Overview/getting-started#what-is-sui-network)
+* [What is Sui network?](https://github.com/openedu101/Move-developer-Vietnam/docs/Overview/getting-started#what-is-sui-network)
 * Understanding Sui's token 
 * Why you should build on Sui
-[links](/docs/otherFolder/doc4.mdx)
+
 
 This [open-source](https://github.com/openedu101/Move-developer-Vietnam) will connects you to information about everything the sui has to offer including usage, infrastructure, opportunities, and guilds.
 
