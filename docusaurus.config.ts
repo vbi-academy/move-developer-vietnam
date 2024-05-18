@@ -35,8 +35,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/openedu101/Move-developer-Vietnam.git',
         },
@@ -50,6 +48,7 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+         
       } satisfies Preset.Options,
     ],
   ],
@@ -85,6 +84,7 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {to: 'SuiMoveCheatsheet', label: 'SuiMoveCheatsheet', position: 'left'}
       ],
     },
     footer: {
@@ -108,7 +108,7 @@ const config: Config = {
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.comjxx/invite/docusaurus',
             },
             {
               label: 'Twitter',
@@ -132,6 +132,7 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+    plugins: ['@docusaurus/plugin-content-pages',],
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

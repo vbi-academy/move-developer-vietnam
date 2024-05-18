@@ -39,6 +39,9 @@ If the terminal or console responds with a version number, you already have the 
 :::::
 
 
+#  Sui client --help
 
+The sui client command has a variety of subcommands that are available for use
+![Sui client](/img/Sui-client/sui_client_help.png)
 
 
