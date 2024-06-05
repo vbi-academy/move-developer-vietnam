@@ -3,8 +3,8 @@ sidebar_position: 1
 title: Welcome to the documentation
 authors: hien phan
 ---
-This document will help you understand Sui technology. It is designed to optimize your learning journey in web3. It will help you integrate the knowledge acquired from the OpenEdu101's SUI bootcamp program, and delve deeper into the contents of these documents. This will give you a comprehensive understanding of how to build smart contracts and create web3 projects.
+Tài liệu này sẽ giúp mọi người hiểu về công nghệ Sui. Nó được thiết kế để tối ưu hóa hành trình học và sẽ giúp bạn tích hợp kiến thức đã học được từ chương trình bootcamp SUI của OpenEdu101. Điều này sẽ mang lại cho bạn sự hiểu biết  về cách xây dựng smart contract và phát triển dự án web3.
 
-I've divided the content into two parts to make it easier to understand. The first part, 'sui-basic', teaches you the basics. The second part, 'sui-advanced', covers more complex ideas and uses of sui technology.
-
-
+Mình đã chia nội dung thành hai phần để dễ hiểu hơn:
+* Phần đầu tiên là **sui-basic**: hướng dẫn bạn các kiến thức cơ bản. 
+* Phần thứ hai là **sui-advanced**: bao gồm các ý tưởng phức tạp hơn và các ứng dụng của công nghệ sui.

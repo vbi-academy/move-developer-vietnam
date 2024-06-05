@@ -9,12 +9,8 @@ const config: Config = {
   staticDirectories: ['public', 'static'], 
   // Set the production url of your site here
   url: 'https://algorand-docs.openedu101.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  
   organizationName: 'openedu101', // Usually your GitHub org/user name.
   projectName: 'Sui-docs', // Usually your repo name.
 

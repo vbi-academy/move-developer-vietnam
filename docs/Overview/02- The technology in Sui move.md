@@ -1,6 +1,6 @@
 ---
-id: ttism
-title: The Technology in Sui Move
+id: wdabos
+title: What developers are building on Sui
 sidebar_label: Sui Move Technology
 sidebar_position: 3
 draft: false
@@ -13,3 +13,5 @@ last_update:
     date: 2024-05-18
     author: Hien Phan
 ---
+
+
